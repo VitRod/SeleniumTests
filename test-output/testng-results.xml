@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19598" started-at="2022-07-24T09:08:16 EEST" finished-at="2022-07-24T09:08:36 EEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19598" started-at="2022-07-24T09:08:16 EEST" finished-at="2022-07-24T09:08:36 EEST">
+      <class name="com.selenium.pages.SiteLoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="setup" is-config="true" duration-ms="4399" started-at="2022-07-24T09:08:16 EEST" description="configure browser and  driver before test" finished-at="2022-07-24T09:08:21 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="givenAllElementsOnPage_whenFieldsAreDisplayed_thenVerifyAllElementsArePresent()[pri:1, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="givenAllElementsOnPage_whenFieldsAreDisplayed_thenVerifyAllElementsArePresent" duration-ms="308" started-at="2022-07-24T09:08:21 EEST" description="Verify that Username,Password fields and Login Button are present" finished-at="2022-07-24T09:08:21 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenAllElementsOnPage_whenFieldsAreDisplayed_thenVerifyAllElementsArePresent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="setup" is-config="true" duration-ms="1741" started-at="2022-07-24T09:08:22 EEST" description="configure browser and  driver before test" finished-at="2022-07-24T09:08:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="givenLogin_whenGetUsernameErrorData_thenCheckThatNoAccountExistsWithThisUsername()[pri:2, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="givenLogin_whenGetUsernameErrorData_thenCheckThatNoAccountExistsWithThisUsername" duration-ms="377" started-at="2022-07-24T09:08:24 EEST" description="no such user with given credentials" finished-at="2022-07-24T09:08:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenLogin_whenGetUsernameErrorData_thenCheckThatNoAccountExistsWithThisUsername -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="setup" is-config="true" duration-ms="1871" started-at="2022-07-24T09:08:25 EEST" description="configure browser and  driver before test" finished-at="2022-07-24T09:08:26 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="givenLogin_whenGetPasswordErrorData_thenTestingOnlyUsername()[pri:3, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="givenLogin_whenGetPasswordErrorData_thenTestingOnlyUsername" duration-ms="287" started-at="2022-07-24T09:08:26 EEST" description="testing of unsuccessful login,there is no password" finished-at="2022-07-24T09:08:27 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenLogin_whenGetPasswordErrorData_thenTestingOnlyUsername -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="setup" is-config="true" duration-ms="1769" started-at="2022-07-24T09:08:27 EEST" description="configure browser and  driver before test" finished-at="2022-07-24T09:08:29 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="givenLogin_whenGetUsernameErrorData_thenTestingOnlyPassword()[pri:4, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="givenLogin_whenGetUsernameErrorData_thenTestingOnlyPassword" duration-ms="267" started-at="2022-07-24T09:08:29 EEST" description="testing of unsuccessful login, there is no username" finished-at="2022-07-24T09:08:29 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenLogin_whenGetUsernameErrorData_thenTestingOnlyPassword -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="setup" is-config="true" duration-ms="1867" started-at="2022-07-24T09:08:30 EEST" description="configure browser and  driver before test" finished-at="2022-07-24T09:08:32 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="givenLogin_whenGetUsernameErrorDataAndGetPasswordErrorData_thenTestThatNoCredentials()[pri:5, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="givenLogin_whenGetUsernameErrorDataAndGetPasswordErrorData_thenTestThatNoCredentials" duration-ms="199" started-at="2022-07-24T09:08:32 EEST" description="no myuser, no mypass" finished-at="2022-07-24T09:08:32 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenLogin_whenGetUsernameErrorDataAndGetPasswordErrorData_thenTestThatNoCredentials -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="setup" is-config="true" duration-ms="1784" started-at="2022-07-24T09:08:33 EEST" description="configure browser and  driver before test" finished-at="2022-07-24T09:08:35 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="givenLogin_whenGetUsernameErrorData_thenTestLoggingInWithError()[pri:6, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="givenLogin_whenGetUsernameErrorData_thenTestLoggingInWithError" duration-ms="280" started-at="2022-07-24T09:08:35 EEST" description="logging testing should be unsuccessful cuz there is no username" finished-at="2022-07-24T09:08:35 EEST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please enter stubpass.] but found [Please enter username.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please enter stubpass.] but found [Please enter username.]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at com.selenium.pages.SiteLoginPageTest.givenLogin_whenGetUsernameErrorData_thenTestLoggingInWithError(SiteLoginPageTest.java:89)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenLogin_whenGetUsernameErrorData_thenTestLoggingInWithError -->
+        <test-method status="FAIL" signature="cleanup()[pri:0, instance:com.selenium.pages.SiteLoginPageTest@89c65d5]" name="cleanup" is-config="true" duration-ms="12" started-at="2022-07-24T09:08:36 EEST" description="cleanup and close browser with driver" finished-at="2022-07-24T09:08:36 EEST">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-VSM778N', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ukrda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57844}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57844/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-VSM778N', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_302'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ukrda\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57844}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57844/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:145)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:723)
+at com.selenium.pages.BasicConfiguration.cleanup(BasicConfiguration.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.afterRun(TestRunner.java:877)
+at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.selenium.pages.SiteLoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
